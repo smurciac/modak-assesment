@@ -79,36 +79,29 @@ When Docker is up:
 ```
 .
 ├── README.md
-├── currents.config.js
 ├── cypress
-│   ├── downloads
 │   ├── e2e
-│   │   └── app
-│   │       ├── contact.us.cy.js
-│   │       └── navigation.cy.js
+│   │   └── search.product.cy.js
 │   ├── fixtures
 │   │   └── example.json
-│   ├── jsconfig.json
 │   ├── support
 │   │   ├── commands
-│   │   │   └── contact.us.js
+│   │   │   ├── home.command.js
+│   │   │   ├── product.details.command.js
+│   │   │   └── product.list.command.js
 │   │   ├── commands.js
 │   │   ├── e2e.js
-│   │   ├── helpers
-│   │   │   └── randomNumber.js
 │   │   └── pages
 │   │       ├── home.page.js
 │   │       ├── index.js
-│   │       └── platform
-│   │           └── contact.us.page.js
+│   │       ├── product.details.page.js
+│   │       └── product.list.page.js
 │   └── types
-│       ├── commands.d.ts
-│       └── contact.us.d.ts
-├── cypress.config.ts
+│       └── commands.d.ts
+├── cypress.config.js
 ├── cypress.env.json
-├── docker-compose.minio.yml
-├── package.json
-└── yarn.lock
+├── package-lock.json
+└── package.json
 ```
 
 ## Visual Studio Code Ruler
