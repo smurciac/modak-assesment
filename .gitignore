@@ -1,0 +1,11 @@
+# Cypress
+cypress/videos
+cypress/screenshots
+
+# Reporting System
+data
+
+# DevDep
+node_modules
+yarn.lock
+package-lock.json
